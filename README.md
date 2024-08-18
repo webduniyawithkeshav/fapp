@@ -1,51 +1,42 @@
-# FundDapp - Decentralised Crowdfunding for Environmental Crisis
+## Getting Started
 
+Create a project using this example:
 
+```bash
+npx thirdweb create --template vite-javascript-starter
+```
 
-FundDapp is a React.js web application designed to facilitate decentralized crowdfunding for environmental crisis campaigns. It empowers users to submit their needs and make donations using web3 wallets like MetaMask. The application incorporates Supabase Authentication for hybrid storage and leverages a smart contract deployed.
+You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
 
+On `src/index.jsx`, you'll find our `ThirdwebProvider` wrapping your app,
+this is necessary for our [hooks](https://portal.thirdweb.com/react) and
+[UI Components](https://portal.thirdweb.com/ui-components) to work.
 
+## Environment Variables
 
-## Table of Contents
+To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
+### Deploy to IPFS
 
-## Features
+Deploy a copy of your application to IPFS using the following command:
 
-- **Crowdfunding Campaigns:** Users can create and participate in crowdfunding campaigns dedicated to environmental crises.
+```bash
+yarn deploy
+```
 
-- **Web3 Wallet Integration:** The platform seamlessly integrates with web3 wallets like MetaMask for secure and convenient donations.
+## Learn More
 
-- **Supabase Authentication:** Utilizes Supabase Authentication for user management and hybrid data storage.
+To learn more about thirdweb, Vite and React, take a look at the following resources:
 
+- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
+- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
+- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
+- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
+- [React documentation](https://reactjs.org/) - learn React.
+- [Templates](https://thirdweb.com/templates)
 
-## Tech Stack
+You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
 
-- **React.js:** The frontend is built with React.js for a responsive and dynamic user interface.
+## Join our Discord!
 
-- **Material UI:** Material UI is used for styling, providing an aesthetically pleasing and user-friendly design.
-
-- **Supabase:** Supabase is employed for authentication and hybrid data storage, ensuring data security and management.
-
-- **Solidity:** The smart contract is deployed on the Solidity, offering scalability and reduced transaction costs.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/FundDapp.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd FundDapp
-   ```
-3. Install dependencies:
-   ```bash
-   yarn install
-   ```
-4. Start Development Server:
-   ```bash
-   yarn dev
-   ```
+For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
